@@ -1,6 +1,8 @@
-import React from "react"
+import { JSX, SVGProps } from "react"
 
-export default function Percentage(props) {
+export default function Percentage(
+  props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
+) {
   return (
     <svg viewBox='0 0 48 48' {...props}>
       <path

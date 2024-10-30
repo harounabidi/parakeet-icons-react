@@ -1,6 +1,8 @@
-import React from "react"
+import { JSX, SVGProps } from "react"
 
-export default function Edit(props: React.SVGProps<SVGSVGElement>) {
+export default function Edit(
+  props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
+) {
   return (
     <svg viewBox='0 0 48 48' {...props} id='icon-edit'>
       <path

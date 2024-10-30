@@ -1,6 +1,8 @@
-import React from "react"
+import { JSX, SVGProps } from "react"
 
-export default function Clock(props) {
+export default function Clock(
+  props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
+) {
   return (
     <svg viewBox='0 0 48 48' {...props} id='icon-clock'>
       <circle cx='24' cy='24' r='20' fill='#8fcae6' />

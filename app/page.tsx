@@ -27,8 +27,9 @@ import Info from "@/icons/info"
 import Menu from "@/icons/menu"
 import Percentage from "@/icons/percentage"
 import Tinder from "@/icons/tinder"
-import React from "react"
 import Bitcoin from "@/icons/logos/bitcoin"
+import React from "react"
+import Instacart from "@/icons/instacart"
 
 export default function Page() {
   return (
@@ -63,6 +64,7 @@ export default function Page() {
       <Menu width='4em' height='4em' />
       <Percentage width='4em' height='4em' />
       <Tinder width='4em' height='4em' />
+      <Instacart width='4em' height='4em' />
     </div>
   )
 }
